@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    height: 60px;
+}
