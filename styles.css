@@ -1,12 +1,37 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
+    background-color: #374357;
 }
 
 header{
-    background-color: black;
+    background-color: #293241;
     height: 60px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > ul{
+    gap: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
