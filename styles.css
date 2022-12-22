@@ -117,4 +117,70 @@ section{
 .grid{
     display: grid;
     background-color: #253144;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.box{
+    border-radius: 8px;
+    background-color: #1c222d;
+    padding: 15px;
+}
+
+.img-round{
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.text{
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.text > h5{
+    font-size: 15px;
+}
+
+.text > p{
+    margin-left: auto;
+    color: #dd1e35;
+    font-size: 13px;
+}
+
+.info{
+    text-align: initial;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.info > div{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.processeur > img{
+    max-width: 25px;
+    margin-right: 5px;
+}
+.info > div > img{
+    filter: brightness(0) invert(1);
+}
+
+.graphic > img{
+    max-width: 25px;
+    margin-right: 7px;
+}
+
+.stockage > img{
+    max-width: 20px;
+    margin-right: 7px;
+}
+
+.ram > img{
+    max-width: 25px;
+    margin-right: 7px;
 }
