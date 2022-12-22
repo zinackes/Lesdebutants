@@ -10,7 +10,7 @@
 
 
 
-a{
+header > ul > li >a{
     text-decoration: none;
     color: white;
     font-weight: 700;
@@ -18,7 +18,7 @@ a{
     position: relative;
     display: inline-block;
 }
-a::after {
+header > ul > li >a::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -31,7 +31,7 @@ a::after {
     transition: transform 0.3s ease-in-out;
   }
   
-  a:hover::after {
+  header > ul > li >a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
   }

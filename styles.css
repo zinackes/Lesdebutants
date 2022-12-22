@@ -46,15 +46,19 @@ li{
 
 
 main{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 section{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #253144;
     text-align: center;
+}
+
+.one{
+    background-color: #253144;
+    margin-bottom: 60px;
 }
 
 .one > h1{
@@ -92,11 +96,25 @@ section{
     transition: .3s ease-in-out;
     font-weight: 700;
     letter-spacing: .3px;
-    margin-bottom: 74.4px;
+    margin-bottom: 70px;
     transition: background 1s;
     background: linear-gradient(90deg, #ff6c98, transparent) rgb(139, 102, 241) ;
 }
 
 .one > button:hover{
     background-color: #ffba59;
+}
+
+.one > button > a{
+    text-decoration: none;
+    color: black;
+}
+
+.two > h2{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    background-color: #253144;
 }
