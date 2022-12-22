@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="styles.css" rel="stylesheet">
         <link href="animation.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.png">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet">
         <title>Computer Showcase</title>
@@ -14,14 +15,17 @@
     </head>
 
 <body>
-    <header class="flex">
+    <header class="flex" id="header">
         <ul class="flex">
-            <li><a href=""><h4>Parcourir</h4></a></li>
-            <li><a href=""><h4>Les Meilleurs</h4></a></li>
-            <li><a href=""><h4>L'Histoire</h4></a></li>
-            <li><a href=""><h4>Information</h4></a></li>
+            <li><a class="active"><h4>Accueil</h4></a></li>
+            <li><a><h4>Parcourir</h4></a></li>
+            <li><a><h4>Les Meilleurs</h4></a></li>
+            <li><a><h4>L'Histoire</h4></a></li>
+            <li><a href="./information.html"><h4>Information</h4></a></li>
         </ul>
     </header>
 </body>
+<script src="main.js"></script>
+<script src="jquery.js"></script>
 
 </html>
