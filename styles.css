@@ -58,7 +58,7 @@ section{
 
 .one{
     background-color: #253144;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .one > h1{
@@ -114,21 +114,27 @@ section{
     color: white;
 }
 
+.two{
+    gap: 40px;
+}
+
 .grid{
     display: grid;
     background-color: #253144;
     padding: 30px;
     border-radius: 20px;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
 }
 
 .box{
     border-radius: 8px;
     background-color: #1c222d;
-    padding: 15px;
+    padding: 4px;
 }
 
 .img-round{
-    border-radius: 5px;
+    border-radius: 2px;
     max-width: 300px;
 }
 
@@ -148,6 +154,11 @@ section{
     font-size: 13px;
 }
 
+.note{
+    text-align: initial;
+    padding-left: 15px;
+}
+
 .info{
     text-align: initial;
     display: grid;
@@ -155,6 +166,7 @@ section{
     justify-content: center;
     align-items: center;
     gap: 25px;
+    margin-bottom: 20px;
 }
 .info > div{
     display: flex;
@@ -166,21 +178,8 @@ section{
     max-width: 25px;
     margin-right: 5px;
 }
-.info > div > img{
-    filter: brightness(0) invert(1);
-}
 
 .graphic > img{
-    max-width: 25px;
-    margin-right: 7px;
-}
-
-.stockage > img{
-    max-width: 20px;
-    margin-right: 7px;
-}
-
-.ram > img{
     max-width: 25px;
     margin-right: 7px;
 }
