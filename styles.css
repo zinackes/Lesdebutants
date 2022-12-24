@@ -110,7 +110,7 @@ section{
     color: black;
 }
 
-.two > h2{
+.two > div > .top-grid > h2{
     color: white;
 }
 
@@ -118,13 +118,45 @@ section{
     gap: 40px;
 }
 
+.top-grid{
+    padding-left: 100px;
+    padding-right: 60px;
+    height: 70px;
+    background-color: #242c39;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tout-voir{
+    margin-left: auto;
+    background-color: #6F7788;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    color: white;
+    font-size: 14px;
+}
+.tout-voir:hover{
+    background-color: #E6F4F1;
+    transition: .3s ease-in-out;
+    color: black;
+}
+
+
 .grid{
     display: grid;
     background-color: #253144;
-    padding: 30px;
-    border-radius: 20px;
+    padding: 45px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     grid-template-columns: auto auto auto;
-    gap: 30px;
+    gap:35px;
 }
 
 .box{
@@ -143,6 +175,7 @@ section{
     color: white;
     display: flex;
     align-items: center;
+    padding-bottom: 0px;
 }
 .text > h5{
     font-size: 15px;
@@ -157,6 +190,17 @@ section{
 .note{
     text-align: initial;
     padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.note > p{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, rgba(135,227,207,1) 0%, #5770ff 100%);
 }
 
 .info{
@@ -167,6 +211,7 @@ section{
     align-items: center;
     gap: 25px;
     margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 .info > div{
     display: flex;
