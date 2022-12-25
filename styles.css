@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background-color: #374357;
 }
@@ -167,7 +167,7 @@ section{
 
 .img-round{
     border-radius: 2px;
-    max-width: 300px;
+    max-width: 350px;
 }
 
 .text{
