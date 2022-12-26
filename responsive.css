@@ -1,24 +1,41 @@
 @media (max-width: 1201px){
-    .grid{
-        max-width: 700px;
+    .grid, .top-grid{
+        max-width: 500px;
         gap: 60px;
+    }
+
+    .top-grid{
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .second-grid{
+        max-width: 400px;
     }
 }
 
 @media (max-width: 1025px){
-    .grid{
-        max-width: 650px;
+    .grid, .top-grid{
+        max-width: 400px;
+    }
+    .top-grid{
+        flex-direction: column;
+        gap: 0;
+    }
+    .tout-voir{
+        margin-left: 0;
+        margin-bottom: 20px;
     }
 }
 
 @media (max-width:769px){
-    .grid{
+    .grid, .top-grid{
         max-width: 350px;
     }
 } 
 
 @media (max-width: 481px){
-    .grid{
+    .grid, .top-grid{
         max-width: 300px;
     }
 }

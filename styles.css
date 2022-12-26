@@ -112,18 +112,19 @@ section{
     color: black;
 }
 
-.two > div > .top-grid > h2{
+.two > div > .top-grid > h2, .two > div > .second-top-grid > h2{
     color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .two{
     gap: 40px;
 }
 
-.top-grid{
+.top-grid, .second-top-grid{
     padding-left: 100px;
     padding-right: 60px;
-    height: 70px;
     background-color: #242c39;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -137,8 +138,8 @@ section{
     margin-left: auto;
     background-color: #6F7788;
     padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     border-radius: 50px;
     cursor: pointer;
     transition: .3s ease-in-out;
