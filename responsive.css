@@ -1,0 +1,23 @@
+@media (max-width: 1201px){
+    .grid{
+        max-width: 800px;
+    }
+}
+
+@media (max-width: 1025px){
+    .grid{
+        max-width: 650px;
+    }
+}
+
+@media (max-width:769px){
+    .grid{
+        max-width: 350px;
+    }
+} 
+
+@media (max-width: 481px){
+    .grid{
+        max-width: 300px;
+    }
+}

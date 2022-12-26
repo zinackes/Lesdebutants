@@ -6,6 +6,8 @@ body{
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     background-color: #374357;
+    width: 100%;
+    transition: .3s ease-in-out;
 }
 
 header{
@@ -128,6 +130,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
+    letter-spacing: .8px;
 }
 
 .tout-voir{
@@ -150,32 +153,45 @@ section{
 
 
 .grid{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     background-color: #253144;
-    padding: 45px;
+    padding: 35px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    grid-template-columns: auto auto auto;
+    justify-content: center;
+    max-width: 1100px;
+    gap:50px;
+    transition: .3s ease-in-out;
+}
+.second-grid{
+    display: grid;
+    background-color: #253144;
+    padding: 35px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     gap:35px;
 }
 
 .box{
-    border-radius: 8px;
     background-color: #1c222d;
-    padding: 4px;
     transition: .3s ease-in-out;
     cursor: pointer;
+    max-width: 300px;
 }
 
 .box:hover{
-    transform: scale(1.05);
-    transition: .3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.01);
 }
 
-.img-round{
-    border-radius: 2px;
-    width: 350px;
-    height: 230px;
+.img-normal{
+    width: 300px;
+    height: 199px;
+}
+.img-large{
+    height: 100px;
+    width: 100px;
 }
 
 .text{
@@ -187,12 +203,19 @@ section{
 }
 .text > h5{
     font-size: 15px;
+    cursor: text;
 }
 
 .text > p{
     margin-left: auto;
     color: #dd1e35;
     font-size: 13px;
+    cursor: text;
+}
+.prix{
+    color: #dd1e35;
+    font-size: 13px;
+    cursor: text;
 }
 
 .note{
@@ -202,12 +225,13 @@ section{
     padding-bottom: 10px;
 }
 
-.note > p{
+.note-individual{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     display: inline-block;
     font-weight: 700;
+    cursor: text;
     background-image: linear-gradient(45deg, rgba(135,227,207,1) 0%, #5770ff 100%);
 }
 
@@ -232,6 +256,7 @@ section{
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: 700;
+    cursor: text;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
 }
 .processeur > img{
@@ -244,6 +269,7 @@ section{
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: 700;
+    cursor: text;
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
 }
 
@@ -257,6 +283,7 @@ section{
     -webkit-background-clip: text;
     background-clip: text;
     font-weight: 700;
+    cursor: text;
     background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 20%, #FFCC70 100%);
     margin-bottom: 20px;
 }
